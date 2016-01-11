@@ -5,12 +5,10 @@
 		<groupId>com.yaodao</groupId>
 		<artifactId>CoreJava</artifactId>
 		<version>0.0.1</version>
-		<relativePath>..</relativePath>
 	</parent>
 	<artifactId>ConditionalStatement</artifactId>
 	<name>ConditionalStatement</name>
 	<description>条件语句</description>
-	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

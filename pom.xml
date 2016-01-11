@@ -7,6 +7,9 @@
 	<packaging>pom</packaging>
 	<name>CoreJava</name>
 	<description>Java基础相关知识积累</description>
+	<modules>
+		<module>ConditionalStatement</module>
+	</modules>
 	<build>
 		<plugins>
 			<plugin>
@@ -18,10 +21,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<modules>
-		<module>Reflection</module>
-		<module>ConditionalStatement</module>
-	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
