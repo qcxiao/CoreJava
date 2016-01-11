@@ -9,7 +9,8 @@
 	<description>Java基础相关知识积累</description>
 	
 	<modules>
-		<module>ConditionalStatement</module>
+		<module>Conditionalstatement</module>
+		<module>Reflection</module>
 	</modules>
 	
 	<build>
