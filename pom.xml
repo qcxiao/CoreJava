@@ -7,9 +7,11 @@
 	<packaging>pom</packaging>
 	<name>CoreJava</name>
 	<description>Java基础相关知识积累</description>
+	
 	<modules>
 		<module>ConditionalStatement</module>
 	</modules>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -23,9 +25,9 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-resources-plugin</artifactId>
-			<version>2.4.3</version>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>4.11</version>
 		</dependency>
 	</dependencies>
 </project>
