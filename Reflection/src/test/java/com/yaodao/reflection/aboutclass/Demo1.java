@@ -6,6 +6,7 @@ package com.yaodao.reflection.aboutclass;
  *
  */
 public class Demo1 {
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		// foo1表示Foo的实例对象
 		Foo foo1 = new Foo();

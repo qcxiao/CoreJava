@@ -1,6 +1,7 @@
 package com.yaodao.reflection.GetClassMessage;
 
 public class Demo1 {
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		/*
 		 * 只要是在类里面的基本数据类型或者关键字都会有类类型，比如int,String,double,void；

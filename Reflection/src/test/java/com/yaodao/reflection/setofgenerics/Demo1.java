@@ -9,6 +9,7 @@ import java.util.ArrayList;
  *
  */
 public class Demo1 {
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		ArrayList list1 = new ArrayList();
 		ArrayList<String> list2 = new ArrayList<String>();

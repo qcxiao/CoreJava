@@ -9,6 +9,7 @@ package com.yaodao.reflection.DynamicLoading;
  *
  */
 public class OfficeBuffer {
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		try {
 			// 得到args[0]类类型

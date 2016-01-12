@@ -13,6 +13,7 @@ public class ClassUtil {
 	/**
 	 * 打印类信息，以及公共方法信息
 	 */
+	@SuppressWarnings("rawtypes")
 	public static void printMethodMessage(Object obj){
 		// 获取类类型
 		Class c = obj.getClass();// 传递该子类的对象，c就是该子类的类类型
@@ -44,6 +45,7 @@ public class ClassUtil {
 	 * 打印类信息，以及成员变量信息
 	 * @param obj
 	 */
+	@SuppressWarnings("rawtypes")
 	public static void printFieldMessage(Object obj){
 		/*
 		 * 成员变量也是对象
@@ -65,6 +67,7 @@ public class ClassUtil {
 	 * 打印构造函数的信息
 	 * @param obj
 	 */
+	@SuppressWarnings("rawtypes")
 	public static void printConMessage(Object obj){
 		Class c = obj.getClass();
 		/*

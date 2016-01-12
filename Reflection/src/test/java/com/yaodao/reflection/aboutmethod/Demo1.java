@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
  *
  */
 public class Demo1 {
+	@SuppressWarnings({ "unused", "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		/*
 		 *  获取print(int , int)方法
@@ -23,7 +24,6 @@ public class Demo1 {
 			// m.invoke(a, new Integer[]{1,2})与a.print(1,2)是一样的；前者是通过反射用方法的类类型调用对象，后者使用对象调用方法
 			// 方法如果没有返回值返回null,如果有则返回具体的返回值
 			Object o = m.invoke(a, new Integer[]{1,2});
-			
 			// 获取print(String , String)
 			Method m1 = c.getMethod("print", String.class, String.class);
 			// a.print("h","ello")
