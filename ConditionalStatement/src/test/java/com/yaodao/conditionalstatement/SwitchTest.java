@@ -14,7 +14,7 @@ public class SwitchTest {
 	 * 因此以下的case块中的内容均会执行。
 	 */
 	@Test
-	public void test() {
+	public void test1() {
 		int num = 1;
 		switch (num) {
 		case 1:
@@ -27,7 +27,11 @@ public class SwitchTest {
 			System.out.println("num==null");
 		}
 	}
-	public static void main(String[] args) {
+	/*
+	 * 合并case选项的情况
+	 */
+	@Test
+	public void test2() {
 		char today='日';
 		switch(today){
     	 case '一':
