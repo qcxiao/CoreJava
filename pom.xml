@@ -11,6 +11,7 @@
 	<modules>
 		<module>Conditionalstatement</module>
 		<module>Reflection</module>
+		<module>ObjectsAndClasses</module>
 	</modules>
 	
 	<build>
