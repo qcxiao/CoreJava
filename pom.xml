@@ -12,6 +12,8 @@
 		<module>Conditionalstatement</module>
 		<module>Reflection</module>
 		<module>ObjectsAndClasses</module>
+		<module>exception</module>
+		<module>collection</module>
 	</modules>
 	
 	<build>
