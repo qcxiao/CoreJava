@@ -7,11 +7,10 @@
 		<artifactId>CoreJava</artifactId>
 		<version>0.0.1</version>
 	</parent>
-	<artifactId>Conditionalstatement</artifactId>
-	<name>ConditionalStatement</name>
-	<description>条件语句</description>
+	<artifactId>Reflection</artifactId>
+	<name>Reflection</name>
+	<description>反射</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
 </project>

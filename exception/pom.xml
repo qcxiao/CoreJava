@@ -5,7 +5,7 @@
     <artifactId>CoreJava</artifactId>
     <version>0.0.1</version>
   </parent>
-  <artifactId>exception</artifactId>
-  <name>exception</name>
+  <artifactId>Exception</artifactId>
+  <name>Exception</name>
   <description>异常</description>
 </project>

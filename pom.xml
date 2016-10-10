@@ -12,8 +12,8 @@
 		<module>Conditionalstatement</module>
 		<module>Reflection</module>
 		<module>ObjectsAndClasses</module>
-		<module>exception</module>
-		<module>collection</module>
+		<module>Exception</module>
+		<module>Collection</module>
 	</modules>
 	
 	<build>
@@ -23,6 +23,7 @@
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
+					<encoding>utf-8</encoding>
 				</configuration>
 			</plugin>
 		</plugins>
