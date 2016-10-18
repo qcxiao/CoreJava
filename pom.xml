@@ -15,6 +15,7 @@
 		<module>Exception</module>
 		<module>Collection</module>
 		<module>Junit</module>
+		<module>Annotation</module>
 	</modules>
 	
 	<build>
