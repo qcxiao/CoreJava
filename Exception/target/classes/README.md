@@ -1,6 +1,0 @@
-# Exception
-* Throwable是Error和Exception的父类；
-* Error的表现形式有VirtualMachineError和ThreadDeath等；
-* Exception的出现表示编码、环境、用户操作输入出现问题；主要分为非检查异常（如RuntimeException）和检查异常；
-* RuntimeException异常又分为NullPointerException、ArrayIndexOutOfBoundsException、ClassCastException、ArithmeticException等；这部分异常大多都是代码逻辑的问题，由JVM自动抛出并自动捕获；
-* 检查异常也有IOException、SQLException；这部分异常需要手动去捕获；

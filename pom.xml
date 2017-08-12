@@ -17,6 +17,7 @@
 		<module>Junit</module>
 		<module>Annotation</module>
 		<module>Serialize</module>
+		<module>RPC</module>
 	</modules>
 	
 	<build>
